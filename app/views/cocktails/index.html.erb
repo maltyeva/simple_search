@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 offset-sm-2">
+      <h1>Cocktails</h1>
+      <hr>
+      <%= simple_form_for :search, url: root_path, method: "GET", html: { class: 'form-inline' } do |f| %>
+        <%= f.input :name, input_html: {value: ""} %>
+        <%= f.submit "Search", class: "btn btn-primary" %>
+      <% end %>
+      <% @cocktails.each do |cocktail| %>
+        <h3><%= cocktail.name %></h3>
+        <p><%= cocktail.preparation %></p>
+      <% end %>
+    </div>
+  </div>
+</div>
