@@ -1,6 +1,7 @@
 require 'json'
 require 'open-uri'
-url = "https://raw.githubusercontent.com/maltyeva/iba-cocktails/maste}r/recipes.json"
+
+url = "https://raw.githubusercontent.com/maltyeva/iba-cocktails/master/recipes.json"
 
 Cocktail.delete_all if Rails.env.development?
 
