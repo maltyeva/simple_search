@@ -1,24 +1,3 @@
-# README
+# READ ME 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Simple form search example using Rails 5. Read more about how to use the search (https://medium.com/@mariacodes/build-a-simple-search-with-the-simple-form-gem-in-rails-5-b247168282d1)[HERE]
